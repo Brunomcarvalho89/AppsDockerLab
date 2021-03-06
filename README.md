@@ -1,5 +1,4 @@
 ## AppsDockerLab
-Duas aplicações java para testes com dockerfile e docker-compose.
 
 Criação de duas aplicações java e configurando a criação de suas respectivas imagens através do Dockerfile.
 
