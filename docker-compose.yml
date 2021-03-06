@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+    message-1:
+        image: message-1:1.0
+        build: docker-lab-message-1/
+        ports:
+        - "32211:8081"
+    message-2:
+        image: message-2:1.0
+        build: docker-lab-message-2/
+        ports:
+        - "32212:8081"    
