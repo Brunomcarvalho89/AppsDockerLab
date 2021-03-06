@@ -12,3 +12,5 @@ Criação de duas aplicações java e configurando a criação de suas respectiv
 6. Executa a aplicação.
 
 Para subir as duas imagens ao mesmo tempo foi escrito um docker-componse.yml fazendo o bind das portas expostas nos dockerfiles para portas no host.
+
+Para testar é possível executar uma requisição GET a raiz(/) das aplicações, lembrando de acessar as portas configuradas no docker-composer file.
